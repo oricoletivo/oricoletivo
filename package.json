@@ -6,6 +6,10 @@
   "author": "oricoletivo",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "parcel index.js",
+    "build": "parcel build index.js"
+  },
   "dependencies": {
     "bootstrap": "^4.5.0"
   },
