@@ -6,34 +6,6 @@
 body {
     background-color: #333;
 }
-/* 
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-}
-.container {
-    position: absolute;
-    top: 80px;
-    left: 100px;
-    right: 100px;
-    bottom: 80px;
-}
-
-.countdown {
-    display: flex;
-    margin-top: 50px;
-}
-.countdown div {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    background-color: azure;
-    font-size: 3em;
-    font-weight: 500;
-} */
-
 .contagem{
     width:300px;
     height:70px;
