@@ -1,5 +1,5 @@
 
-let target_date = new Date("2020, may, 21 16:00:00").getTime();
+let target_date = new Date("2020/05/21 16:00:00").getTime();
 let dias;
 let horas;
 let minutos;
