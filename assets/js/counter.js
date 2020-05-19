@@ -1,5 +1,5 @@
 
-let target_date = new Date("2020, may, 21 10:00:00").getTime();
+let target_date = new Date("2020, may, 21 16:00:00").getTime();
 let dias;
 let horas;
 let minutos;
@@ -13,10 +13,10 @@ setInterval(function () {
 
     dias = parseInt(segundos_f / 86400);
     segundos_f = segundos_f % 86400;
-    
+
     horas = parseInt(segundos_f / 3600);
     segundos_f = segundos_f % 3600;
-    
+
     minutos = parseInt(segundos_f / 60);
     segundos = parseInt(segundos_f % 60);
 
@@ -24,6 +24,6 @@ setInterval(function () {
     document.getElementById('hora').innerHTML = horas;
     document.getElementById('minuto').innerHTML = minutos;
     document.getElementById('segundo').innerHTML = segundos;
-  
+
 
 }, 1000);
