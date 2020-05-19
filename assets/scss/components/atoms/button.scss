@@ -1,0 +1,110 @@
+/* button component */
+.button {
+    padding-top: var(--space-grid, 0.5rem);
+    padding-bottom: var(--space-grid, 0.5rem);
+    padding-left: calc(var(--space-grid, 0.5rem) * 2);
+    padding-right: calc(var(--space-grid, 0.5rem) * 2);
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-size: var(--button, 0.875rem);
+    font-weight: 700;
+    text-align: center;
+    border: 0;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* button--disabled */
+.button--disabled {
+    background-color: var(--color-on-surface-low);
+    color: var(--color-on-surface-low);
+    border: 0;
+    cursor: unset;
+}
+
+.button--disabled:hover {
+    background-color: var(--color-on-surface-low);
+    color: var(--color-on-surface-low);
+    border: 0;
+}
+
+/* button--large */
+.button--large {
+    padding-top: calc(var(--space-grid, 0.5rem) * 1.5);
+    padding-bottom: calc(var(--space-grid, 0.5rem) * 1.5);
+    padding-left: calc(var(--space-grid, 0.5rem) * 3);
+    padding-right: calc(var(--space-grid, 0.5rem) * 3);
+    font-size: calc(var(--button, 0.875rem) * 1.2);
+}
+
+/* button--chip */
+.button--chip {
+    font-size: 0.8125rem;
+    padding: 4px var(--space-grid);
+    border: 1px solid var(--color-on-surface-low);
+    border-radius: 1rem;
+    background-color: transparent;
+    color: var(--color-on-surface-medium);
+}
+
+.button--chip:hover {
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: var(--color-on-secondary);
+}
+
+/* button--text */
+.button--text {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.button--text:hover {
+    background-color: rgba(241, 90, 36, 0.15);
+    color: var(--color-secondary);
+}
+
+/* button--outlined */
+.button--outlined {
+    border: 1px solid var(--color-primary);
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.button--outlined:hover {
+    border: 1px solid var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-secondary);
+}
+
+/* button--cta */
+.button--cta {
+    font-size: calc(var(--button, 0.875rem) * 1.42);
+    padding-top: calc(var(--space-grid, 0.5rem) * 2);
+    padding-bottom: calc(var(--space-grid, 0.5rem) * 2);
+    padding-left: calc(var(--space-grid, 0.5rem) * 3);
+    padding-right: calc(var(--space-grid, 0.5rem) * 3);
+}
+
+/* button--secondary */
+.button--secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-on-secondary);
+}
+
+.button--secondary:hover {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-on-secondary);
+}
+
+.button--width--fit {
+    width: fit-content;
+}
+
