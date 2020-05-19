@@ -4,18 +4,19 @@
 
 // navbar__wrapper component {
 .navbar__wrapper {
-    padding: calc(var(--space-grid) * 2) 0;
-    background-color: #282355;
+    padding: 0 0 calc(var(--space-grid) * 2) 0;
+    // background-color: #282355;
 }
 
 @media screen and (min-width: 1200px) {
     .navbar__wrapper {
-        padding: calc(var(--space-grid) * 3) 0;
+        padding: 0 0 calc(var(--space-grid) * 3) 0;
         justify-items: left;
     }
 }
 
 .intro {
+    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.1) 3.89%, rgba(52, 182, 195, 0) 100%), #282355;
     background-color: #282355;
     color: #ffffff;
     height: 100vh;
@@ -29,12 +30,20 @@
 
 .intro__left {
     align-content: center;
+    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.3) 3.89%, rgba(52, 182, 195, 0) 100%), #282355;
 }
 
 @media screen and (min-width: 1200px) {
     .intro__left {
         grid-column: 1/2;
         grid-row: 1/2;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro-left__wrapper {
+        justify-content: center;
+        justify-items: left;
     }
 }
 
@@ -56,6 +65,7 @@
 
 .intro__header {
     align-content: center;
+    max-width: 400px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -71,18 +81,27 @@
 #mc_embed_signup {
     background-color: transparent;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
+}
+
+#mc_embed_signup form .mc-field-group {
+    width: 100%;
+    padding: 0;
 }
 
 #mc_embed_signup form .mc-field-group label {
     display: none;
 }
 
-@media screen and (min-width: 1200px) {
-    #mc_embed_signup #mc-embedded-subscribe-form {
-        padding-left: 0;
-    }
+#mc_embed_signup #mc-embedded-subscribe-form {
+    padding: 0;
 }
+
+// @media screen and (min-width: 1200px) {
+//     #mc_embed_signup #mc-embedded-subscribe-form {
+//         padding-left: 0;
+//     }
+// }
 
 #mc_embed_signup form .mc-field-group input {
     font-family: var(--font-family);
@@ -136,13 +155,8 @@
 
     display: block;
     height: auto;
-    margin: auto;
-}
-
-@media screen and (min-width: 1200px) {
-    #mc_embed_signup form .button {
-        margin: 0;
-    }
+    width: 100%;
+    margin: 0;
 }
 
 
@@ -152,7 +166,7 @@
 
 #mc_embed_signup_scroll {
     display: grid;
-    row-gap: var(--space-grid);
+    row-gap: calc(var(--space-grid) * 2);
 }
 
 
