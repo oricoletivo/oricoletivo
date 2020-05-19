@@ -1,0 +1,21 @@
+{
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 2,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.validation.template": false,
+    "eslint.validate": [
+        "vue",
+        "javascript",
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnSave": true,
+}

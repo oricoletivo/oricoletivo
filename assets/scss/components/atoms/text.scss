@@ -1,0 +1,43 @@
+/* text component */
+.text {
+    font-size: var(--text);
+    line-height: 1.4;
+    color: var(--color);
+    word-break: break-word;
+}
+
+.text--large {
+    font-size: var(--text-large);
+}
+
+.text--small {
+    font-size: calc(var(--text) * .85);
+}
+
+.text--caption {
+    font-size: var(--caption);
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--left {
+    text-align: left;
+}
+
+.text--right {
+    text-align: right;
+}
+
+.text--marked-on-primary {
+    color: var(--color-secondary);
+}
+
+.text--marked-on-bg {
+    color: var(--color-primary);
+}
+
+.text--on-primary {
+    color: var(--color-on-primary);
+}

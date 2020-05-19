@@ -1,0 +1,35 @@
+/* title component */
+.title {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-title);
+    line-height: var(--line-height-title);
+}
+
+.title--level-1 {
+    font-size: var(--title-level-1);
+}
+
+.title--level-2 {
+    font-size: var(--title-level-2);
+}
+
+.title--level-3 {
+    font-size: var(--title-level-3);
+}
+
+.title--level-4 {
+    font-size: var(--title-level-4);
+    text-transform: uppercase;
+}
+
+.title--center {
+    text-align: center;
+}
+
+.title--left {
+    text-align: left;
+}
+
+.title--right {
+    text-align: right;
+}
