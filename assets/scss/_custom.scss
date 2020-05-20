@@ -79,103 +79,28 @@
 }
 
 // Mailchimp form
-#mc_embed_signup {
+.mc-form {
     background-color: transparent;
     width: 100%;
     max-width: 400px;
 }
 
-#mc_embed_signup form .mc-field-group {
-    width: 100%;
-    padding: 0;
-}
-
-#mc_embed_signup form .mc-field-group label {
-    display: none;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form {
-    padding: 0;
-}
-
-// @media screen and (min-width: 1200px) {
-//     #mc_embed_signup #mc-embedded-subscribe-form {
-//         padding-left: 0;
-//     }
-// }
-
-#mc_embed_signup form .mc-field-group input {
-    font-family: var(--font-family);
-    font-size: var(--font-size);
-    font-weight: var(--font-weight);
-    color: rgba(255, 255, 255, var(--color-contrast-medium));
-    border: 1px solid rgba(255, 255, 255, var(--color-contrast-medium));
-    border-radius: 0.3125rem;
-    padding: 1rem;
-    background-color: transparent;
-    transition: all 0.3s;
-}
-
-#mc_embed_signup form .mc-field-group input::placeholder {
-    color: rgba(255, 255, 255, var(--color-contrast-medium));
-}
-
-#mc_embed_signup form .mc-field-group input:-webkit-autofill {
-    animation-name: autofill;
-    animation-fill-mode: both;
-}
-
-#mc_embed_signup form .mc-field-group input:focus {
-    border: 1px solid rgba(255, 255, 255, var(--color-contrast-medium));
-}
-
-@keyframes autofill {
-    to {
-        color: rgba(255, 255, 255, var(--color-contrast-medium));
-        background: transparent;
-    }
-}
-
-// form button
-#mc_embed_signup form .button {
-    padding-top: var(--space-grid, 0.5rem);
-    padding-bottom: var(--space-grid, 0.5rem);
-    padding-left: calc(var(--space-grid, 0.5rem) * 2);
-    padding-right: calc(var(--space-grid, 0.5rem) * 2);
-    background-color: var(--color-secondary);
-    color: var(--color-on-secondary);
-    text-transform: uppercase;
-    font-family: var(--font-family);
-    font-size: var(--button, 0.875rem);
-    font-weight: 700;
-    text-align: center;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s;
-
-    display: block;
-    height: auto;
-    width: 100%;
-    margin: 0;
-}
-
-#mc_embed_signup form .button.button--large {
-    padding-top: calc(var(--space-grid, 0.5rem) * 1.5);
-    padding-bottom: calc(var(--space-grid, 0.5rem) * 1.5);
-    padding-left: calc(var(--space-grid, 0.5rem) * 3);
-    padding-right: calc(var(--space-grid, 0.5rem) * 3);
-    font-size: calc(var(--button, 0.875rem) * 1.2);
-}
-
-
-#mc_embed_signup form .button:hover {
-    background-color: var(--color-secondary-dark);
-}
-
-#mc_embed_signup_scroll {
+.mc-form__wrapper {
     display: grid;
     row-gap: calc(var(--space-grid) * 2);
+}
+
+.mc-field-group {
+    width: 100%;
+    padding: 0;
+}
+
+.mc-form__input {
+    width: 100%;
+}
+
+.mc-form__button {
+    width: 100%;
 }
 
 
@@ -209,6 +134,11 @@
     }
 }
 
+.hidden {
+    display: none;
+}
+
+
 
 // contagem regressiva
 .regressive-counter {
@@ -223,6 +153,7 @@
     align-items: center;
     padding: var(--space);
     background: url('../images/image-bg-counter.png'), #34B6C3;
+    color: rgba(0, 0, 0, var(--color-contrast-hi));
 }
 
 @media screen and (min-width: 1200px) {
