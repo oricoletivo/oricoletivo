@@ -27,3 +27,16 @@ setInterval(function () {
 
 
 }, 1000);
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("regressive-counter").style.zIndex = "-10000";
+        document.getElementById("regressive-counter").style.opacity = "0";
+    } else {
+        document.getElementById("regressive-counter").style.zIndex = "10000";
+        document.getElementById("regressive-counter").style.opacity = "100";
+    }
+    prevScrollpos = currentScrollPos;
+}
