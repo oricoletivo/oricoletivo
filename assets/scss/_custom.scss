@@ -170,37 +170,26 @@
 
 // card component
 .card {
-    // background-color: #ffffff;
-    // border-radius: 1.25rem;
     max-width: 22.5rem;
-    // color: hsla(217, 61%, 10%, var(--color-contrast-medium));
 }
+
 .card__header {
-    border-radius: 1.25rem;
+    border-radius: 50%;
 }
+
 .card__body {
     display: grid;
     row-gap: calc(var(--space-grid) * 2);
     padding: calc(var(--space-grid) * 3);
 }
-.card__footer {
-    text-align: center;
-    padding-left: var(--space, 1.875rem);
-    padding-right: var(--space, 1.875rem);
-    padding-bottom: var(--space, 1.875rem);
-}
+
 .card__image {
-    border-radius: 1.25rem;
+    border-radius: 50%;
 }
+
 .card__image:hover {
     filter: grayscale(80%);
-    transition: all 0.3s;
-}
-.card__title {
-    font-size: 1.25rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: hsla(217, 61%, 10%, var(--color-contrast-hi));
+    transition: all 0.5s;
 }
 
 
@@ -211,7 +200,7 @@
 // logo component
 .logo {
     display: block;
-    height: 40px;
+    height: 50px;
     width: auto;
 }
 

@@ -11,10 +11,6 @@
     font-size: var(--text-large);
 }
 
-.text--small {
-    font-size: calc(var(--text) * .85);
-}
-
 .text--caption {
     font-size: var(--caption);
 }
@@ -41,4 +37,16 @@
 
 .text--on-primary {
     color: var(--color-on-primary);
+}
+
+.text-on-primary--hi {
+    color: var(--color-on-primary-hi);
+}
+
+.text-on-primary--medium {
+    color: var(--color-on-primary-medium);
+}
+
+.text-on-primary--low {
+    color: var(--color-on-primary-low);
 }
