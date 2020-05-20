@@ -5,16 +5,16 @@
     * - Change the base colors settings to your brand colors
     * - You need to change only the --settings HSL values below
     */
-    --settings-color-primary: 246, 42%, 24%;
-    --settings-color-primary-light: 250, 27%, 40%;
-    --settings-color-primary-dark: 243, 100%, 9%;
+    --settings-color-primary: 222, 74%, 52%;
+    --settings-color-primary-light: 227, 100%, 72%;
+    --settings-color-primary-dark: 220, 100%, 34%;
 
     --settings-color-secondary: 334, 70%, 50%;
     --settings-color-secondary-light: 335, 100%, 69%;
     --settings-color-secondary-dark: 334, 100%, 34%;
 
-    --settings-color-bg: 0, 0%, 100%;
-    --settings-color-surface: 0, 0%, 100%;
+    --settings-color-bg: 246, 42%, 24%;
+    --settings-color-surface: 246, 42%, 24%;
     --settings-color-error: 0, 87%, 61%;
     --settings-color-success: 173, 100%, 43%;
 
@@ -22,8 +22,8 @@
     * Text colors settings
     * - You need to change only the --settings HSL values below
     */
-    --settings-color-on-bg: 0, 0%, 0%;
-    --settings-color-on-surface: 0, 0%, 0%;
+    --settings-color-on-bg: 0, 0%, 100%;
+    --settings-color-on-surface: 0, 0%, 100%;
     --settings-color-on-primary: 0, 0%, 100%;
     --settings-color-on-secondary: 0, 0%, 100%;
     --settings-color-on-error: 0, 0%, 100%;
