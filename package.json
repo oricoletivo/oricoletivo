@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "parcel index.html social-image.png",
-    "build": "parcel build index.html social-image.png"
+    "dev": "parcel index.html obrigado.html social-image.png",
+    "build": "parcel build index.html obrigado.html social-image.png"
   },
   "dependencies": {
     "autoprefixer": "^9.8.0",
