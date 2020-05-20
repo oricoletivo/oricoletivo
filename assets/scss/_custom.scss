@@ -112,6 +112,32 @@
     width: 100%;
 }
 
+// .error {
+//     border-color: red;
+// }
+
+.error-message {
+    color: var(--color-error);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.success-message {
+  color: var(--color-on-success);
+  margin-bottom: 1em;
+}
+
+// .mc-status {
+//     padding: var(--space-grid);
+//     background-color: var(--color-error);
+//     color: var(--color-on-error);
+// }
+
+.mc-status:focus {
+    outline: none;
+}
+
 
 // footer__wrapper component
 .footer__wrapper {
