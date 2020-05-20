@@ -107,3 +107,8 @@
 .button--width--fit {
     width: fit-content;
 }
+
+.button--centered {
+    margin: auto;
+    justify-self: center;
+}

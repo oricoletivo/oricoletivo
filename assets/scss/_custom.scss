@@ -4,15 +4,24 @@
 
 // navbar__wrapper component {
 .navbar__wrapper {
-    padding: 0 0 calc(var(--space-grid) * 2) 0;
-    // background-color: #282355;
+    padding: calc(var(--space));
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
-@media screen and (min-width: 1200px) {
-    .navbar__wrapper {
-        padding: 0 0 calc(var(--space-grid) * 3) 0;
-        justify-items: left;
-    }
+// @media screen and (min-width: 1200px) {
+//     .navbar__wrapper {
+//         padding: 0 0 calc(var(--space-grid) * 3) 0;
+//         justify-items: left;
+//     }
+// }
+
+.social-channels {
+    display: grid;
+    grid-template-columns: 48px 48px;
+    justify-self: end;
+    justify-items: end;
+    column-gap: calc(var(--space-grid) * 2);
 }
 
 .intro {
@@ -107,6 +116,10 @@
 // footer__wrapper component
 .footer__wrapper {
     padding: var(--space);
+}
+
+.thank-you-intro {
+    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.1) 3.89%, rgba(52, 182, 195, 0) 100%), #282355;
 }
 
 ////////////////////////////////////////
