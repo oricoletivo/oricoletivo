@@ -174,7 +174,8 @@
 
 .how {
     // background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.3) 3.89%, rgba(52, 182, 195, 0) 100%), #D92673;
-    background: var(--color-secondary);
+    // background: var(--color-primary);
+    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%), #2961DF;
 }
 
 ////////////////////////////////////////
