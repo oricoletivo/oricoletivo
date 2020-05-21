@@ -1,19 +1,38 @@
 
 /*-- Pop-Up Saída Página --*/
 function iniciaModal(modalID) {
+    
     const modal = document.getElementById(modalID);
     modal.classList.add('mostrar');
     
     modal.addEventListener('click', (e) => {
-        if (e.target.id == modalID || e.target.className == 'fechar') {
+
+        const targetId = e.target.id
+
+        if (targetId == modalID || targetId == 'button-close-modal' || targetId == 'button-answer') {
             modal.classList.remove('mostrar');
+        }
+
+        if (targetId == 'button-answer') {
+            window.scrollTo(0, 0)
         }
 
     })
 }
-document.addEventListener('mouseleave', () => {
-    iniciaModal('modal-promocao');
-});
+
+function showModal() {
+
+        // Remove this event listener
+        document.removeEventListener("mouseleave", showModal);
+
+        // Show the popup
+        iniciaModal('modal-promocao');
+
+}
+  
+document.addEventListener("mouseleave", showModal);
+
+
 
 
 
