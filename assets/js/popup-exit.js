@@ -1,4 +1,5 @@
 
+/*-- Pop-Up Saída Página --*/
 function iniciaModal(modalID) {
     const modal = document.getElementById(modalID);
     modal.classList.add('mostrar');
@@ -16,6 +17,3 @@ document.addEventListener('mouseleave', () => {
 
 
 
-// document.addEventListener('mouseleave', function(){
-//    /*--alert('ESTOU AQUI'); --*/
-// });
