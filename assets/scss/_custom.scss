@@ -3,22 +3,15 @@
 ////////////////////////////////////////
 
 .main {
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 }
 
-// navbar__wrapper component {
+// navbar__wrapper component
 .navbar__wrapper {
     padding: calc(var(--space));
     grid-template-columns: auto 1fr;
     align-items: center;
 }
-
-// @media screen and (min-width: 1200px) {
-//     .navbar__wrapper {
-//         padding: 0 0 calc(var(--space-grid) * 3) 0;
-//         justify-items: left;
-//     }
-// }
 
 .social-channels {
     display: grid;
@@ -74,7 +67,6 @@
         background: url('../images/image-intro-lg.jpg') no-repeat center;
         background-size: cover;
     }
-
 }
 
 .intro__header {
@@ -241,19 +233,6 @@
     color: #ffffff;
 }
 
-// .atendee-1 {
-//     background: url('../images/image-isac.png') no-repeat center;
-// }
-
-// .atendee-2 {
-//     background: url('../images/image-carol.png') no-repeat center;
-// }
-
-// .atendee-3 {
-//     background: url('../images/image-lucas.png') no-repeat center;
-// }
-
-
 
 
 
@@ -277,7 +256,7 @@
 
 @media screen and (min-width: 1200px) {
     .regressive-counter__wrapper {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         padding: var(--space-grid);
         justify-content: center;
         column-gap: var(--space);
