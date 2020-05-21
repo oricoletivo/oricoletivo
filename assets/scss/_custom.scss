@@ -198,8 +198,11 @@
 }
 
 .card__image {
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     border: 10px solid rgba(255, 255, 255, 0.25);
+    margin: auto;
 }
 
 .card__image:hover {
@@ -237,6 +240,22 @@
     border-radius: 0.5rem;
     color: #ffffff;
 }
+
+.atendee-1 {
+    background: url('../images/image-isac.png') no-repeat center;
+}
+
+.atendee-2 {
+    background: url('../images/image-carol.png') no-repeat center;
+}
+
+.atendee-3 {
+    background: url('../images/image-lucas.png') no-repeat center;
+}
+
+
+
+
 
 // regressive-counter
 .regressive-counter {
