@@ -199,10 +199,11 @@
 
 .card__image {
     border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.25);
 }
 
 .card__image:hover {
-    filter: grayscale(80%);
+    filter: sepia(70%);
     transition: all 0.5s;
 }
 
@@ -263,6 +264,17 @@
         column-gap: var(--space);
     }
 }
+
+.regressive-counter__cta {
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .regressive-counter__cta {
+        display: block;
+    }
+}
+
+
 
 .numero {
     display: grid;
