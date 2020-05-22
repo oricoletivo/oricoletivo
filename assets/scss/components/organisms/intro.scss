@@ -1,0 +1,60 @@
+// intro component
+.intro {
+    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.1) 3.89%, rgba(52, 182, 195, 0) 100%), #282355;
+    background-color: #282355;
+    color: #ffffff;
+    height: 100vh;
+    z-index: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .intro__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.intro__left {
+    align-content: center;
+    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.3) 3.89%, rgba(52, 182, 195, 0) 100%), #282355;
+}
+
+@media screen and (min-width: 1200px) {
+    .intro__left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro-left__wrapper {
+        justify-content: center;
+        justify-items: left;
+    }
+}
+
+.intro__right {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .intro__right {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+        background: url('../images/image-intro-lg.jpg') no-repeat center;
+        background-size: cover;
+    }
+}
+
+.intro__header {
+    align-content: center;
+    max-width: 400px;
+}
+
+@media screen and (min-width: 1200px) {
+    .intro__header {
+        justify-items: left;
+        text-align: left;
+    }
+}

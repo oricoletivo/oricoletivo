@@ -1,0 +1,6 @@
+// navbar component
+.navbar__wrapper {
+    padding: calc(var(--space));
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}

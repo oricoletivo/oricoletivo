@@ -1,0 +1,14 @@
+// logo component
+.logo {
+    display: block;
+    height: 50px;
+    width: auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        display: block;
+        height: 60px;
+        width: auto;
+    }
+}

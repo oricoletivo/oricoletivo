@@ -10,11 +10,16 @@
 /* Components */
 /* ******************** */
 
+
+
+
+/* ******************** */
+/* Base components
+/* ******************** */
+
 // organisms
 @import './components/organisms/section.scss';
 @import './components/organisms/wrapper.scss';
-
-// molecules
 
 // atoms
 @import './components/atoms/title.scss';
@@ -22,6 +27,12 @@
 @import './components/atoms/input.scss';
 @import './components/atoms/button.scss';
 
+
+
+
+/* ******************** */
+/* Custom components
+/* ******************** */
 
 // Custom CSS
 @import './_custom.scss';
