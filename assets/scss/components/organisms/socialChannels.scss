@@ -1,0 +1,8 @@
+// social-channels component
+.social-channels {
+    display: grid;
+    grid-template-columns: 48px 48px;
+    justify-self: end;
+    justify-items: end;
+    column-gap: calc(var(--space-grid) * 2);
+}

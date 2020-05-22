@@ -1,5 +1,7 @@
-// We remove bootstrap, 
-// but you can import bootstrap components here
+// This file was used to import bootstrap, but
+// we decided to move bootstrap to better control the
+// responsive layout and gain some performance points in lighthouse.
+// You can import bootstrap components here, if you need
 
 // theme
 @import './theme.scss';

@@ -1,0 +1,7 @@
+// bordered-text component
+.bordered-text {
+    padding: var(--space);
+    border: 1px solid var(--color-on-secondary);
+    border-radius: 0.5rem;
+    color: #ffffff;
+}

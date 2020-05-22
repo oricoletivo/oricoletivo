@@ -1,0 +1,40 @@
+// Mailchimp form component
+.mc-form {
+    background-color: transparent;
+    width: 100%;
+    max-width: 400px;
+}
+
+.mc-form__wrapper {
+    display: grid;
+    row-gap: calc(var(--space-grid) * 2);
+}
+
+.mc-field-group {
+    width: 100%;
+    padding: 0;
+}
+
+.mc-form__input {
+    width: 100%;
+}
+
+.mc-form__button {
+    width: 100%;
+}
+
+.error-message {
+    color: var(--color-on-error);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.success-message {
+  color: var(--color-on-success);
+  margin-bottom: 1em;
+}
+
+.mc-status:focus {
+    outline: none;
+}
