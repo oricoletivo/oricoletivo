@@ -1,4 +1,9 @@
+
 # We are ORI Talk Coletivo
+
+We are a multidisciplinary collective for connection, discussion, reflection and construction of ideas and solutions aiming at a new look at our professional life.
+
+This project is a Landing page to capture leads to our online live event.
 
 ### How to install
 
