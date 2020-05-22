@@ -3,7 +3,7 @@
 ////////////////////////////////////////
 
 .main {
-    margin-bottom: 180px;
+    // margin-bottom: 180px;
 }
 
 // navbar__wrapper component
@@ -108,12 +108,8 @@
     width: 100%;
 }
 
-// .error {
-//     border-color: red;
-// }
-
 .error-message {
-    color: var(--color-error);
+    color: var(--color-on-error);
     margin-top: 0.5em;
     margin-bottom: 1em;
     text-align: left;
@@ -124,21 +120,9 @@
   margin-bottom: 1em;
 }
 
-// .mc-status {
-//     padding: var(--space-grid);
-//     background-color: var(--color-error);
-//     color: var(--color-on-error);
-// }
-
 .mc-status:focus {
     outline: none;
 }
-
-
-// footer__wrapper component
-// .footer__wrapper {
-//     padding: var(--space);
-// }
 
 .thank-you-intro {
     background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.1) 3.89%, rgba(52, 182, 195, 0) 100%), #282355;
@@ -156,7 +140,7 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1320px) {
     .what-body__wrapper {
         grid-template-columns: repeat(auto-fit, minmax(22.5rem, auto));
         justify-content: center;
@@ -165,9 +149,12 @@
 }
 
 .how {
-    // background: radial-gradient(100% 100% at 100% 0%, rgba(0, 224, 255, 0.3) 3.89%, rgba(52, 182, 195, 0) 100%), #D92673;
-    // background: var(--color-primary);
-    background: radial-gradient(100% 100% at 100% 0%, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%), #2961DF;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 100%), #2961DF;
+    padding-bottom: calc(var(--padding-section) + 4rem);
+}
+
+.how-body__wrapper {
+    max-width: 43.75rem;
 }
 
 ////////////////////////////////////////
@@ -254,25 +241,14 @@
     color: rgba(0, 0, 0, var(--color-contrast-hi));
 }
 
-@media screen and (min-width: 1200px) {
-    .regressive-counter__wrapper {
-        grid-template-columns: auto auto;
-        padding: var(--space-grid);
-        justify-content: center;
-        column-gap: var(--space);
-    }
+.regressive-counter__button {
+    color: var(--color-primary);
+    background-color: #ffffff;
 }
 
-.regressive-counter__cta {
-    display: none;
+.regressive-counter__button:hover {
+    color: #ffffff;
 }
-@media screen and (min-width: 1200px) {
-    .regressive-counter__cta {
-        display: block;
-    }
-}
-
-
 
 .numero {
     display: grid;
@@ -300,7 +276,6 @@
 
 
 // Pop Up Saída da Página
-
 .modal-container {
     width: 100vw;
     height: 100vh;
