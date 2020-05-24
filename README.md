@@ -3,38 +3,57 @@
 
 We are a multidisciplinary collective for connection, discussion, reflection and construction of ideas and solutions aiming at a new look at our professional life.
 
-This project is a Landing page to capture leads to our online live event.
+This project is a landing page to capture leads to our online live event.
+
+**Features**
+
+- Custom Mailchimp capture form - html, CSS, and validation script
+- Regressive event date counter
+- Exit intent popup
+- Thank you page
+- Pure CSS HTML and javascript code with no frameworks
+- We are using SASS files only to easily add Bootstrap to the project, if you want
+- Parceljs to bundle the project, minify the code and use a development server
 
 ### How to install
 
 1 - Install nodejs and NPM
 
-2 - If you want, you can install yarn
+- Via download: [https://nodejs.org/en/download/](https://nodejs.org/en/download/), or
+- Via package manager: [https://nodejs.org/en/download/package-manager/](https://nodejs.org/en/download/package-manager/)
 
-3 - Install using yarn
+**If you is using use npm**
 
-```
-$ yarn install
-```
-
-4 -  Install using npm
+2 -  Install project dependencies using npm
 
 ```
 $ npm install
 ```
 
+**Or, if you prefer yarn**
+
+2 - Install yarn
+
+- [https://classic.yarnpkg.com/en/docs/install](https://classic.yarnpkg.com/en/docs/install)
+
+3 - Install project dependencies using yarn
+
+```
+$ yarn
+```
+
 ### How to run locally
 
-Using yarn
+If you is using npm:
 
 ```
-$ yarn dev or npm run dev
+$ npm run dev
 ```
 
-Using npm
+Or, if you prefer yarn:
 
 ```
-$ yarn dev or npm run dev
+$ yarn dev
 ```
 
 We are using [parceljs](https://parcejs.org) to bundle the app: [https://parcejs.org](https://parcejs.org)
